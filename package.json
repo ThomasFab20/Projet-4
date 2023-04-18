@@ -1,0 +1,22 @@
+{
+  "name": "projet-4",
+  "version": "1.0.0",
+  "description": "Améliorez l'interface d'un site mobile avec des animations CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasFab20/Projet-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomasFab20/Projet-4/issues"
+  },
+  "homepage": "https://github.com/ThomasFab20/Projet-4#readme",
+  "dependencies": {
+    "sass": "^1.62.0"
+  }
+}
