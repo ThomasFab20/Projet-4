@@ -1,3 +1,33 @@
 
 
-/*# sourceMappingURL=style.css.map */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+.fa-arrow-left{
+  position: absolute;
+  top: 23px;
+  left: 24px;
+}
+
+.index-arrow{
+  visibility: hidden;
+}
+
+#logo{
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 14px;
+}
