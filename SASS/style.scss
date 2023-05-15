@@ -258,8 +258,39 @@
             gap: 5px;
         }
 
-        .like{
-            color: var(--main-color);
+        // .like{
+        //     color: var(--main-color);
+        // }
+    }
+
+    .heart_icon{
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+
+        .empty{
+            position: absolute;
+
+            &:hover{
+                opacity: 0;
+            }
+        }
+
+        .full{
+            position: absolute;
+            opacity: 0;
+            background: linear-gradient(#FF79DA, #9356DC);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            transition: all 400ms;
+
+            &:hover{
+                opacity: 1;
+            }
         }
     }
 
@@ -277,7 +308,7 @@
 
     .fa-heart{
         font-size: 22px;
-        margin-right: 25px;
+        margin-right: 16px;
     }
 
     

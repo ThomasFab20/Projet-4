@@ -301,8 +301,30 @@
     padding: 10px 0 12px 13px;
     gap: 5px;
   }
-  .restaurant-card .like {
-    color: var(--main-color);
+  .heart_icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+  }
+  .heart_icon .empty {
+    position: absolute;
+  }
+  .heart_icon .empty:hover {
+    opacity: 0;
+  }
+  .heart_icon .full {
+    position: absolute;
+    opacity: 0;
+    background: linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 400ms;
+  }
+  .heart_icon .full:hover {
+    opacity: 1;
   }
   .new {
     position: absolute;
@@ -316,7 +338,7 @@
   }
   .fa-heart {
     font-size: 22px;
-    margin-right: 25px;
+    margin-right: 16px;
   }
   footer {
     background-color: #353535;

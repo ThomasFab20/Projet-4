@@ -162,6 +162,37 @@
     font-weight: 700;
   }
 
+  .heart_icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+  }
+
+  .heart_icon .empty{
+    position: absolute;
+  }
+
+  .empty:hover{
+    opacity: 0;
+  }
+
+  .heart_icon .full{
+    position: absolute;
+    opacity: 0;
+    background: linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 400ms;
+  }
+
+  .full:hover{
+    opacity: 1;
+  }
+
+
   /****** Footer ***********/
 
   footer{
