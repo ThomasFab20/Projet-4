@@ -225,7 +225,6 @@
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
     padding: 48px 20px 68px 20px;
     gap: 25px;
   }
