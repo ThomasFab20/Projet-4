@@ -69,13 +69,21 @@
   .lettre:nth-child(7) {
     animation-delay: 0.7s;
   }
+  .lettre:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+  .lettre:nth-child(9) {
+    animation-delay: 0.9s;
+  }
+  .lettre:nth-child(10) {
+    animation-delay: 1s;
+  }
   @keyframes bounce {
     0% {
       color: #fff;
       text-shadow: 0 0 7px;
     }
     100% {
-      translate: 0 -15px 0;
       color: #525151;
       text-shadow: none;
     }
@@ -88,7 +96,6 @@
     }
     100% {
       opacity: 0.05;
-      translate: 0 15px 0;
       color: #525151;
       text-shadow: none;
     }
@@ -120,7 +127,7 @@
     text-decoration: none;
     color: inherit;
   }
-  button {
+  button, #search {
     border: none;
     font-size: 16px;
     font-family: inherit;
@@ -243,9 +250,10 @@
     border-radius: 20px;
     width: 100%;
   }
-  .info-content p {
+  .info-content h3 {
     width: 211px;
     padding: 28px 0;
+    font-size: 16px;
   }
   .numbers {
     font-size: 14.18px;

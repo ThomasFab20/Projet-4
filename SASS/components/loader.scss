@@ -70,13 +70,24 @@
         animation-delay: 0.7s;
     }
 
+    .lettre:nth-child(8){
+        animation-delay: 0.8s;
+    }
+
+    .lettre:nth-child(9){
+        animation-delay: 0.9s;
+    }
+
+    .lettre:nth-child(10){
+        animation-delay: 1s;
+    }
+
     @keyframes bounce{
         0%{
             color: #fff;
             text-shadow: 0 0 7px;
         }
         100%{
-            translate: 0 -15px 0;
             color: #525151;
             text-shadow: none;
         }
@@ -90,7 +101,6 @@
         }
         100%{
             opacity: 0.05;
-            translate: 0 15px 0;
             color: #525151;
             text-shadow: none;
         }
