@@ -17,29 +17,31 @@
 <body>
 
     <div class="loader">
-        <div class="container">
-            <div class="lettre">C</div>
-            <div class="lettre">H</div>
-            <div class="lettre">A</div>
-            <div class="lettre">R</div>
-            <div class="lettre">G</div>
-            <div class="lettre">E</div>
-            <div class="lettre">M</div>
-            <div class="lettre">E</div>
-            <div class="lettre">N</div>
-            <div class="lettre">T</div>
-        </div>
-        <div class="container">
-            <div class="lettre shadow">C</div>
-            <div class="lettre shadow">H</div>
-            <div class="lettre shadow">A</div>
-            <div class="lettre shadow">R</div>
-            <div class="lettre shadow">G</div>
-            <div class="lettre shadow">E</div>
-            <div class="lettre shadow">M</div>
-            <div class="lettre shadow">E</div>
-            <div class="lettre shadow">N</div>
-            <div class="lettre shadow">T</div>
+        <div class="containers">
+            <div class="container">
+                <div class="lettre">C</div>
+                <div class="lettre">H</div>
+                <div class="lettre">A</div>
+                <div class="lettre">R</div>
+                <div class="lettre">G</div>
+                <div class="lettre">E</div>
+                <div class="lettre">M</div>
+                <div class="lettre">E</div>
+                <div class="lettre">N</div>
+                <div class="lettre">T</div>
+            </div>
+            <div class="container">
+                <div class="lettre shadow">C</div>
+                <div class="lettre shadow">H</div>
+                <div class="lettre shadow">A</div>
+                <div class="lettre shadow">R</div>
+                <div class="lettre shadow">G</div>
+                <div class="lettre shadow">E</div>
+                <div class="lettre shadow">M</div>
+                <div class="lettre shadow">E</div>
+                <div class="lettre shadow">N</div>
+                <div class="lettre shadow">T</div>
+            </div>
         </div>
     </div>
 
@@ -67,27 +69,29 @@
     <!-- Fonctionnement -->
             <section id="fonctionnement">
                 <h2>Fonctionnement</h2>
-                <article class="info">
-                    <i class="numbers">1</i>
-                    <div class="info-content">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
-                        <h3>Choisissez un restaurant</h3>
-                    </div>
-                </article>
-                <article class="info">
-                    <i class="numbers">2</i>
-                    <div class="info-content">
-                        <i class="fa-solid fa-list"></i>
-                        <h3>Composez votre menu</h3>
-                    </div>
-                </article>
-                <article class="info">
-                    <i class="numbers">3</i>
-                    <div class="info-content">
-                        <i class="fa-sharp fa-solid fa-store"></i>
-                        <h3>Dégustez au restaurant</h3>
-                    </div>
-                </article>
+                <div class="fonctionnement-info">
+                    <article class="info">
+                        <i class="numbers">1</i>
+                        <div class="info-content">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            <h3>Choisissez un restaurant</h3>
+                        </div>
+                    </article>
+                    <article class="info">
+                        <i class="numbers">2</i>
+                        <div class="info-content">
+                            <i class="fa-solid fa-list"></i>
+                            <h3>Composez votre menu</h3>
+                        </div>
+                    </article>
+                    <article class="info">
+                        <i class="numbers">3</i>
+                        <div class="info-content">
+                            <i class="fa-sharp fa-solid fa-store"></i>
+                            <h3>Dégustez au restaurant</h3>
+                        </div>
+                    </article>
+                </div>
             </section>
     <!-- Restaurants -->
             <section id="restaurants">
@@ -103,7 +107,10 @@
                                 <h3>La palette du goût</h3>
                                 <p>Ménilmontant</p>
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <div class="heart_icon">
+                                <i class="fa-regular fa-heart empty"></i>
+                                <i class="fa-solid fa-heart full"></i>
+                            </div>
                         </div>
                     </article>
                     <article class="restaurant-card">
@@ -129,7 +136,10 @@
                                 <h3>À la française</h3>
                                 <p>Cité rouge</p>
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <div class="heart_icon">
+                                <i class="fa-regular fa-heart empty"></i>
+                                <i class="fa-solid fa-heart full"></i>
+                            </div>
                         </div>
                     </article>
                     <article class="restaurant-card">
@@ -139,7 +149,10 @@
                                 <h3>Le délice des sens</h3>
                                 <p>Folie-Méricourt</p>
                             </div>
-                            <i class="fa-regular fa-heart"></i>
+                            <div class="heart_icon">
+                                <i class="fa-regular fa-heart empty"></i>
+                                <i class="fa-solid fa-heart full"></i>
+                            </div>
                         </div>
                     </article>
                 </div>
