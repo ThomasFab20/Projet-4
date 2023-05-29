@@ -4,20 +4,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ohmyfood</title>
+    <title>À la française</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="./SASS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../SASS/pages/restaurants.css">
     <script src="https://kit.fontawesome.com/99479506f6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="main-container">
         <header>
-            <i class="fa-solid fa-arrow-left"><a href="#"></a></i>
+            <a href="../index.html"><i class="fa-solid fa-arrow-left index-arrow"></i></a>
             <h1 id="logo">ohmyfood</h1>
         </header>
+        <main>
+            <div class="menu">
+                <img src="../assets/Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Image du restaurant">
+                <div class="menu-content">
+                    <div class="restaurant-name">
+                        <h1>À la française</h1>
+                        <div class="heart_icon">
+                            <i class="fa-regular fa-heart empty fa-2x"></i>
+                            <i class="fa-solid fa-heart full fa-2x"></i>
+                        </div>
+                    </div>
+                        <section class="menus">
+                            <h2>Entrées</h2>
+                            <div class="separateur"></div>
+                            <div class="menu-cards">
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Tartare de poulpe acidulé</h3>
+                                            <div class="card-content">
+                                                <p>Aux zestes d'orange</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">25€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Velouté de légumes d'antan</h3>
+                                            <div class="card-content">
+                                                <p>Carotte, panais, topinambour</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">35€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Soupe à l'oignon</h3>
+                                            <div class="card-content">
+                                                <p>Revisitée</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">20€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                        <section class="menus">
+                            <h2>Plats</h2>
+                            <div class="separateur"></div>
+                            <div class="menu-cards">
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Coquilles Saint-Jacques</h3>
+                                            <div class="card-content">
+                                                <p>Accompagnées d'une purée de panais</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">40€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Magret de canard</h3>
+                                            <div class="card-content">
+                                                <p>Et parmentier de pommes de terre</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">35€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Pigeonneau d’Ille-et-Vilaine</h3>
+                                            <div class="card-content">
+                                                <p>Sur son lit de gnocchis aux légumes</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">44€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                        <section class="menus">
+                            <h2>Desserts</h2>
+                            <div class="separateur"></div>
+                            <div class="menu-cards">
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Pétales de violettes glacés</h3>
+                                            <div class="card-content">
+                                                <p>Et purée de noisettes</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">18€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Fondant au chocolat</h3>
+                                            <div class="card-content">
+                                                <p>Revisité</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">22€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="cards">
+                                    <div class="card">
+                                        <div class="card-menu">
+                                            <h3>Millefeuille croustillant</h3>
+                                            <div class="card-content">
+                                                <p>Myrtilles et pâte d’amande</p>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <p class="prix">23€</p>
+                                            <div class="check">
+                                                <i class="fa-solid fa-circle-check fa-lg"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </section>
+                        <button>Commander</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h3>ohmyfood</h3>
+            <div class="liens">
+                <div class="footer-section-1">
+                    <div id="proposer">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p><a href="#">Proposer un restaurant</a></p>
+                    </div>
+                    <div id="partenaire">
+                        <i class="fa-solid fa-handshake-angle fa-sm"></i>
+                        <p><a href="#">Devenir partenaire</a></p>
+                    </div>
+                </div>
+                <div class="footer-section-2">
+                    <p><a href="#">Mentions légales</a></p>
+                    <p><a href="mailto:fabro.thomas95@gmail.com">Contact</a></p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
+</html>
